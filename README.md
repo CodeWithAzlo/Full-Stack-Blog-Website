@@ -162,4 +162,8 @@ Project Link: [https://github.com/yourusername/azlanblogs](https://github.com/yo
 
 ---
 
+<<<<<<< HEAD
 ⭐️ If you like this project, please give it a star on GitHub! 
+=======
+⭐️ If you like this project, please give it a star on GitHub! 
+>>>>>>> 19b95a31ddde68734dc6b2537f326a3b70a4dd1f
