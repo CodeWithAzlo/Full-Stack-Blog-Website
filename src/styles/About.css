@@ -1,0 +1,275 @@
+.about-page {
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f1f1f1;
+    padding: 2rem 1rem;
+}
+
+.about-hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 15px rgba(0, 255, 136, 0.5);
+}
+
+.about-title .Typewriter {
+    display: inline-block;
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.about-title .Typewriter__wrapper {
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.about-title .Typewriter__cursor {
+    color: #00ff88;
+    font-weight: bold;
+    animation: blink 0.7s infinite;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.8);
+}
+
+.about-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.about-story,
+.about-mission,
+.about-values,
+.about-cta {
+    background: rgba(35, 39, 42, 0.95);
+    border-radius: 16px;
+    padding: 2.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(97, 218, 251, 0.1);
+}
+
+.about-story h2,
+.about-mission h2,
+.about-values h2,
+.about-cta h2 {
+    color: #61dafb;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-story p,
+.about-mission p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f1f1f1;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.story-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.highlight-card {
+    background: rgba(24, 26, 27, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(97, 218, 251, 0.1);
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(97, 218, 251, 0.2);
+}
+
+.highlight-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.highlight-card h3 {
+    color: #61dafb;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.highlight-card p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.mission-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.feature-item {
+    text-align: center;
+    padding: 1.5rem;
+    background: rgba(24, 26, 27, 0.8);
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.feature-item:hover {
+    transform: translateY(-5px);
+}
+
+.feature-item h3 {
+    color: #61dafb;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.value-card {
+    background: rgba(24, 26, 27, 0.8);
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s;
+    border: 1px solid rgba(97, 218, 251, 0.1);
+}
+
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.value-card h3 {
+    color: #61dafb;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.value-card p {
+    color: #f1f1f1;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.about-cta {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.about-cta p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.cta-button.primary {
+    background: linear-gradient(90deg, #61dafb 0%, #21a1f3 100%);
+    color: #181a1b;
+}
+
+.cta-button.secondary {
+    background: transparent;
+    color: #61dafb;
+    border: 2px solid #61dafb;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(97, 218, 251, 0.3);
+}
+
+.about-footer {
+    text-align: center;
+    padding: 2rem;
+    color: #b0b0b0;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .about-hero {
+        padding: 2rem 1rem;
+    }
+
+    .about-title {
+        font-size: 2.5rem;
+    }
+
+    .about-story,
+    .about-mission,
+    .about-values,
+    .about-cta {
+        padding: 1.5rem;
+    }
+
+    .about-story h2,
+    .about-mission h2,
+    .about-values h2,
+    .about-cta h2 {
+        font-size: 2rem;
+    }
+
+    .about-story p,
+    .about-mission p {
+        font-size: 1.1rem;
+    }
+} 

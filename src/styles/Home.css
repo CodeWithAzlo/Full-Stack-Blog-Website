@@ -1,0 +1,198 @@
+.home-page {
+    min-height: calc(100vh - 70px);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+                url('https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg') center/cover;
+    color: #fff;
+    padding: 2rem 1rem;
+}
+
+.home-hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    animation: fadeIn 0.8s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.home-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 15px rgba(0, 255, 136, 0.5);
+}
+
+.home-title .Typewriter {
+    display: inline-block;
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.home-title .Typewriter__wrapper {
+    background: linear-gradient(45deg, #00ff88, #00a1ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.7);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.home-title .Typewriter__cursor {
+    color: #00ff88;
+    font-weight: bold;
+    animation: blink 0.7s infinite;
+    text-shadow: 0 0 15px rgba(0, 255, 136, 0.8);
+}
+
+.home-subtitle {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Typewriter effect styles */
+.typewriter-text {
+    display: inline-block;
+    color: #00ff88;
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.5; }
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.blog-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.blog-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.blog-content {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.9rem;
+}
+
+.blog-author {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.blog-category {
+    display: inline-block;
+    padding: 0.3rem 0.8rem;
+    background: rgba(0, 255, 136, 0.1);
+    color: #00ff88;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #00ff88;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.error-message {
+    background: rgba(255, 68, 68, 0.1);
+    border: 1px solid #ff4444;
+    color: #ff4444;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 600px;
+}
+
+@media (max-width: 768px) {
+    .home-title {
+        font-size: 2.5rem;
+    }
+
+    .blog-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-subtitle {
+        font-size: 1rem;
+    }
+
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
+} 
