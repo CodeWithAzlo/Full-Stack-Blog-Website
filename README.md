@@ -7,7 +7,7 @@
 
 A beautiful, responsive, and feature-rich blog platform built with React, Vite, and Appwrite. This project combines modern design with powerful functionality to create an engaging blogging experience.
 
-![Blog Preview](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg)
+![Blog Preview](https://cdn-icons-png.flaticon.com/512/1968/1968641.png)
 
 ## 🛠️ Technologies Used
 
