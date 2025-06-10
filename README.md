@@ -1,8 +1,13 @@
 # 🚀 AzlanBlogs - Modern Full-Stack Blog Platform
 
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React Logo" width="100" height="100"/>
+  <img src="https://appwrite.io/images-ee/press/logo-press-kit.svg" alt="Appwrite Logo" width="200" height="100"/>
+</div>
+
 A beautiful, responsive, and feature-rich blog platform built with React, Vite, and Appwrite. This project combines modern design with powerful functionality to create an engaging blogging experience.
 
-![Blog Preview](https://img.freepik.com/free-vector/gradient-dark-dynamic-lines-background_23-2148995950.jpg)
+![Blog Preview](./src/redme.png)
 
 ## ✨ Features
 
@@ -162,8 +167,4 @@ Project Link: [https://github.com/yourusername/azlanblogs](https://github.com/yo
 
 ---
 
-<<<<<<< HEAD
-⭐️ If you like this project, please give it a star on GitHub! 
-=======
-⭐️ If you like this project, please give it a star on GitHub! 
->>>>>>> 19b95a31ddde68734dc6b2537f326a3b70a4dd1f
+⭐️ If you like this project, please give it a star on GitHub!
