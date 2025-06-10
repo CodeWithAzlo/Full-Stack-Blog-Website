@@ -7,7 +7,21 @@
 
 A beautiful, responsive, and feature-rich blog platform built with React, Vite, and Appwrite. This project combines modern design with powerful functionality to create an engaging blogging experience.
 
-![Blog Preview](./src/redme.png)
+![Blog Preview](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg)
+
+## 🛠️ Technologies Used
+
+<div align="center">
+  <h3>Frontend Technologies</h3>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="50" height="50"/>
+  <img src="https://vitejs.dev/logo.svg" alt="Vite" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
+  
+  <h3>Backend & Services</h3>
+  <img src="https://appwrite.io/images-ee/press/logo-press-kit.svg" alt="Appwrite" width="100" height="50"/>
+  <img src="https://www.emailjs.com/assets/img/logo.svg" alt="EmailJS" width="100" height="50"/>
+</div>
 
 ## ✨ Features
 
@@ -40,22 +54,6 @@ A beautiful, responsive, and feature-rich blog platform built with React, Vite, 
   - Loading animations
   - Success/error popups
   - Responsive navigation
-
-## 🛠️ Technologies Used
-
-- **Frontend:**
-  - React 18
-  - Vite
-  - React Router DOM
-  - Typewriter Effect
-  - EmailJS
-  - CSS3 with modern features
-
-- **Backend:**
-  - Appwrite
-  - Authentication
-  - Database
-  - Storage
 
 ## 🚀 Getting Started
 
