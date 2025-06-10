@@ -2,12 +2,12 @@
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="React Logo" width="100" height="100"/>
-  <img src="https://appwrite.io/images-ee/press/logo-press-kit.svg" alt="Appwrite Logo" width="200" height="100"/>
+  <img src="https://seeklogo.com/images/A/appwrite-logo-1DB173F6F8-seeklogo.com.png" alt="Appwrite Logo" width="200" height="100"/>
 </div>
 
 A beautiful, responsive, and feature-rich blog platform built with React, Vite, and Appwrite. This project combines modern design with powerful functionality to create an engaging blogging experience.
 
-![Blog Preview](https://cdn-icons-png.flaticon.com/512/1968/1968641.png)
+![Blog Preview](https://img.freepik.com/free-vector/blogging-concept-illustration_114360-1038.jpg)
 
 ## 🛠️ Technologies Used
 
@@ -19,7 +19,7 @@ A beautiful, responsive, and feature-rich blog platform built with React, Vite, 
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
   
   <h3>Backend & Services</h3>
-  <img src="https://appwrite.io/images-ee/press/logo-press-kit.svg" alt="Appwrite" width="100" height="50"/>
+  <img src="https://seeklogo.com/images/A/appwrite-logo-1DB173F6F8-seeklogo.com.png" alt="Appwrite" width="100" height="50"/>
   <img src="https://www.emailjs.com/assets/img/logo.svg" alt="EmailJS" width="100" height="50"/>
 </div>
 
